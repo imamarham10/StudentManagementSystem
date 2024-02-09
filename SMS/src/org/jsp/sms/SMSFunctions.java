@@ -188,7 +188,7 @@ public class SMSFunctions {
 			pstmt = con.prepareStatement(qry5);	
 			pstmt.setInt(1, sid4);
 			pstmt.setString(2, suname3);
-			int val = pstmt.executeUpdate(); //creating implementation class object of result set
+			int val = pstmt.executeUpdate(); 
 			if(val==1) {
 				System.out.println("Record has been deleted");
 			}else {
